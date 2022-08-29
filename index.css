@@ -1,0 +1,138 @@
+
+
+@font-face {
+    font-family: 'Cursed Timer ULiL';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Cursed Timer ULiL'), url('https://fonts.cdnfonts.com/s/40642/CursedTimerUlil-Aznm.woff') format('woff');
+}
+body {
+    margin: 0;
+}
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 575px;
+    height: 385px;
+    background: #1B244A;
+}
+h3 {
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    position: absolute;
+    width: 149px;
+    height: 36px;
+    top: 68px;
+    font-family: Verdana;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 36px;
+    align: center;
+    text-align: center;
+    color: #EEEEEE;
+}
+.h3-home {left: 85px;}
+
+.h3-guest {left: 340px;}
+
+.score {
+    position: absolute;
+    background-color: #080001;
+    color: #F94F6D;
+    width: 155px;
+    height: 120px;
+    font-family: 'Cursed Timer ULiL';
+    font-weight: 400;
+    font-size: 90px;
+    border-radius: 5px;
+    top: 125px;
+    line-height: 141%;
+    text-align: center;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+#score-home { left: 82px;}
+
+#score-guest { left: 340px;}
+
+.points {
+    display: flex;
+    position: absolute;
+    width: 155px;
+    font-family: 'Cursed Timer ULiL';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    text-align: center;
+    color: #9AABD8;
+    top: 271px;
+}
+
+#points-home {
+  left: 82px;
+}
+
+#points-guest {
+  left: 337px
+}
+
+.plus-one {
+    box-sizing: border-box;
+    width: 45px;
+    height: 45px;
+    left: 337px;
+    top: 271px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding-top: 8px;
+    background-color: #1B244A;
+    color: #9AABD8;
+    cursor: pointer;
+}
+
+.plus-two {
+    box-sizing: border-box;
+    width: 45px;
+    height: 45px;
+    left: 391px;
+    top: 271px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    margin-right: 10px;
+    padding-top: 8px;
+    background-color: #1B244A;
+    color: #9AABD8;
+    cursor: pointer;
+}
+
+.plus-three {
+    box-sizing: border-box;
+    width: 45px;
+    height: 45px;
+    left: 447px;
+    top: 271px;
+    border: 2px solid #9AABD8;
+    border-radius: 5px;
+    padding-top: 8px;
+    background-color: #1B244A;
+    color: #9AABD8;
+    cursor: pointer;
+}
+.new-game {
+    color: #9AABD8;
+    left: 20px;
+    top: 340px;
+    position: absolute;
+    font-family: Verdana;
+    font-style: bold;
+    font-weight: 500;
+    font-size: 17px;
+    border: 2px solid #9AABD8;
+    padding: 5px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
